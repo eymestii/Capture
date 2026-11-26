@@ -1,0 +1,11 @@
+[package]
+name = "capture-app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+capture-core = { path = "../capture-core" }
+capture-engine = { path = "../capture-engine" }
+eframe = "0.31"
+serde_json = "1"
+dirs = "5"
